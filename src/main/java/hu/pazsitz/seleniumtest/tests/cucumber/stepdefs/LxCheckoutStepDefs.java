@@ -37,7 +37,7 @@ public class LxCheckoutStepDefs {
     
     @Given("^the LX result page in Rome \"(.*?)\"$")
     public void the_LX_result_page_in_Rome(String arg1) throws Throwable {
-    	driver.get("http://www.expedia.com/lx/?location=rome&startDate=2014-08-19&endDate=&regionId=179899");
+    	driver.get("http://www.expedia.com/lx/?location=rome&startDate=2014-12-31&endDate=&regionId=179899");
     }
 
     @When("^I select the (\\d+) Activity$")

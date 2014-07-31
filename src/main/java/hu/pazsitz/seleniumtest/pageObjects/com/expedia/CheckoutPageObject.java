@@ -33,10 +33,10 @@ public class CheckoutPageObject extends AbstractPageObject<CheckoutPage>{
 	
     private static final String ZIP_CODE = "98004";
     private static final String CARDHOLDER_NAME = "Test User";
-    private static final String CC_ID_NUMBER = "555";
+    private static final String CC_ID_NUMBER = "123";
     private static final String CC_EXP_MONTH = "7";
     private static final String CC_TYPE = "Visa";
-    private static final String CC_NUMBER = "4111111111111111";
+    private static final String CC_NUMBER = "1231111111111789";
     private static final String PHONE_NUMBER = "555-12345";
     private static final String USA = "usa";
     private static final String TEST_USER_NAME = "Test User Name";

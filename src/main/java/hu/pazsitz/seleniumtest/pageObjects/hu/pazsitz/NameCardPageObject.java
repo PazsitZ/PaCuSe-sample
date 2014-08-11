@@ -51,7 +51,7 @@ public class NameCardPageObject extends AbstractPageObject<NameCardPage> {
 		final String mail2 = "pazsitz@gmail.com";
 		final String webPageUrl = "http://pazsitz.hu/";
 		final String FBUrl = "http://facebook.com/pazsitz";
-		final String LIUrl = "http://hu.linkedin.com/in/PazsitZ";
+		final String LIUrl = "http://linkedin.com/in/PazsitZ";
 
 		assertEquals(page.getContactEmail1().getText(), mail1);
 		assertEquals(page.getContactEmail2().getText(), mail2);

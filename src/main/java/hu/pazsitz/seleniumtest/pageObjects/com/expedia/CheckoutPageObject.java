@@ -1,7 +1,6 @@
 package hu.pazsitz.seleniumtest.pageObjects.com.expedia;
 
 import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertTrue;
 import hu.pazsitz.pacuse.pageObjects.AbstractPageObject;
 import hu.pazsitz.pacuse.pageObjects.GeneralPageImplObject;

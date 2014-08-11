@@ -16,3 +16,4 @@ nb-configuration.xml
 target/
 reports/
 test-output/
+log4j/

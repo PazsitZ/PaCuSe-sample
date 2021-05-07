@@ -14,6 +14,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <selenium.version>2.42.2</selenium.version>
         <cuke.version>1.1.8</cuke.version>
+        <pacuse.version>0.84</pacuse.version>
     </properties>
 
     <dependencies>
@@ -101,15 +102,12 @@
             <version>2.42.2</version>
         </dependency>
         <dependency>
-            <groupId>hu.pazsitz.pacuse</groupId>
+            <groupId>hu.pazsitz</groupId>
             <artifactId>pacuse</artifactId>
-            <version>0.65</version>
-        </dependency>
-        <dependency>
-            <groupId>javax</groupId>
-            <artifactId>javaee-web-api</artifactId>
-            <version>7.0</version>
-            <scope>provided</scope>
+            <version>${pacuse.version}</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/pacuse.${pacuse.version}.jar</systemPath>
+            <!--type>jar</type-->
         </dependency>
         <dependency>
             <groupId>javax</groupId>

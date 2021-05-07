@@ -115,7 +115,7 @@ public class CheckoutPageObject extends AbstractPageObject<CheckoutPage>{
         
         page.getCompleteBookingSubmitButton().click();
         try {
-        	Waiters.waitForMultipleUrlOnPayments(10, "LXCheckout", "LXCheckoutError", "LXConfirmation", "/trips/");
+        	Waiters.waitForMultipleUrl(10, "LXCheckout", "LXCheckoutError", "LXConfirmation", "/trips/");
         } catch (TimeoutException e) {
         	if (!isClientSideErrorAppeared()) {
         		throw e;

@@ -11,8 +11,16 @@ import org.openqa.selenium.support.How;
 
 public class TripSummaryWidget extends AbstractWidget {
 
+    @FindBy(how=How.XPATH, using="id(\"trip_summary_wrapper\")")
+    private WebElement container;
+
     public TripSummaryWidget(WebDriver webDriver) {
         super(webDriver);
+    }
+
+    @Override
+    public WebElement getContainer() {
+        return container;
     }
 
     @DataTableAttributes(name = "DX activity name 0")

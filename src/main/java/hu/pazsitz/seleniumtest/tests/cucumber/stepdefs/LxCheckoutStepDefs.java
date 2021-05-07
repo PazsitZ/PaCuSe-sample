@@ -85,7 +85,7 @@ public class LxCheckoutStepDefs {
     
     @Then("^It fails$")
     public void it_fails() throws Throwable {
-    	Waiters.waitForMultipleUrlOnPayments(15, "LXCheckout");
+    	Waiters.waitForMultipleUrl(15, "LXCheckout");
     	Assert.assertEquals(driver.findElement(By.className("alert-message")).getText(),
     	"Sorry, there’s an issue with the payment information below.");
     	

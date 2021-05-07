@@ -9,8 +9,17 @@ import hu.pazsitz.pacuse.pages.AbstractWidget;
 
 public class JQueryValidationCommentWidget extends AbstractWidget {
 
+	@FindBy(how=How.XPATH, using="//*[@id='commentForm']")
+	private WebElement container;
+
+
 	public JQueryValidationCommentWidget(WebDriver webDriver) {
 		super(webDriver);
+	}
+
+	@Override
+	public WebElement getContainer() {
+		return container;
 	}
 
 	@FindBy(how=How.XPATH, using="//*[@id='commentForm']//input[@id='cname']")

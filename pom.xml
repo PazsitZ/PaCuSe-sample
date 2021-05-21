@@ -119,6 +119,12 @@
             <version>7.0</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>com.googlecode</groupId>
+            <artifactId>totallylazy</artifactId>
+            <version>1077</version>
+            <systemPath>${project.basedir}/lib/com/googlecode/totallylazy/1077/totallylazy-1077.jar</systemPath>
+        </dependency>
     </dependencies>
 
     <build>

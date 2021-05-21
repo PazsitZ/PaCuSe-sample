@@ -14,8 +14,15 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <selenium.version>2.42.2</selenium.version>
         <cuke.version>1.1.8</cuke.version>
-        <pacuse.version>0.84</pacuse.version>
+        <pacuse.version>0.84.9</pacuse.version>
     </properties>
+
+    <repositories>
+        <repository>
+            <id>pacuse.pazsitz.hu</id>
+            <url>https://pazsitz.hu/repo/</url>
+        </repository>
+    </repositories>
 
     <dependencies>
     	<dependency>
@@ -105,9 +112,6 @@
             <groupId>hu.pazsitz</groupId>
             <artifactId>pacuse</artifactId>
             <version>${pacuse.version}</version>
-            <scope>system</scope>
-            <systemPath>${basedir}/lib/pacuse.${pacuse.version}.jar</systemPath>
-            <!--type>jar</type-->
         </dependency>
         <dependency>
             <groupId>javax</groupId>
